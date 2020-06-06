@@ -1,0 +1,206 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar{
+    background-color: #FF8F00 !important;        
+    height: 60px;
+}
+.nav-link{
+    /* font-weight: bold !important; */
+    color: black ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-style: italic; */
+}
+.soleheading{
+    display: inline !important; 
+    text-align: center !important;
+    font-weight: bold !important; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fa-shopping-cart, .fa-user-circle{
+    font-size: 25px !important;
+}
+.marq{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 12px;
+    height: 50px;
+    
+    
+}
+.flat{
+    color: black;
+    font-size: larger !important;
+    
+}
+.mainCard{
+    display: flex;
+    margin: 80px;
+    justify-content: space-around;
+}
+.card1,.card2,.card3{
+    border: 2px solid #FF8F00;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    box-shadow: 2px 5px 5px #FF8F00;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.newArrivals{
+    margin-top: 100px; 
+}
+.newArrivals > h1{
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #FF8F00 !important;
+    border-color: #FF8F00 !important;
+}
+.card{
+    margin-left: 10px;
+    width: 300px !important; 
+}
+
+
+.footer{
+    background-color: black;
+    color: #FF8F00;
+    height: 240px;
+    margin-top: 80px;
+    width: 100%;
+}
+.coll{
+    margin:  20px 5px ;
+    padding: 20px;
+    
+}
+
+.types{
+    list-style-type: none;
+}
+.u{
+    color:white;
+}
+
+.dot{
+    list-style-type: square;
+    color: #FF8F00;
+}
+
+.supp{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+.link{
+    margin-right: 200px;
+    margin-top: 1px;
+    color: white;
+}
+
+.logo{
+   display: inline-flex;
+   margin-top: 10px;
+   margin-left: -22px;
+}
+
+.footer2{
+    background-color: #FF8F00;
+    margin-top: -17px;
+    max-width: 100%;
+    color: black;
+    text-align: center;
+}
+.user{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.namepass{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sign{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hr{
+    margin-top: 10px;    
+    width: 240px;
+}
+.input{
+    margin-top: 6px;
+}
+
+.acc{
+    text-align: center;
+}
+
+.bgimage{
+    width: 1366px;
+    height: 400px;
+    background-image: url(Images/men.jpg);
+    background-size: cover;
+}
+
+.bgimage1{
+    width: 1366px;
+    height: 400px;
+    background-image: url(Images/ban.jpg);
+    background-size: cover;
+}
+
+.bgimage2{
+    width: 1366px;
+    height: 400px;
+    background-image: url(Images/kids.jpg);
+    background-size: cover;
+}
+
+.wel{
+    text-align: center;
+    margin-top:30px;
+    color: black;
+
+}
+
+.Brands1{
+    margin-top: 120px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.second{
+    margin-top: 100px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 995px) 
+{
+    .navbar{
+        height: 80px;
+    }
+    .card1,.card2,.card3{
+        max-width: 100%;
+    }
+}
+/* @media screen and (max-width: 370px)
+/* {
+    .card{
+        width:200px;
+        margin-bottom: 10px;
+    }
+} */ 
